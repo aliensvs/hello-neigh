@@ -1,0 +1,87 @@
+.card-largura{
+    max-width: 13rem;
+    
+    
+}
+
+.img-carrossel-um{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+.img-carrossel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-titulo{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-fonte-tamanho{
+    font-size: 2.4rem;
+}
+
+.cor-especial{
+    color: rgba(255, 123, 0, 0.99)!important;
+}
+
+.botao-cor-especial{
+    background-color: rgba(0, 0, 0, 0.99);
+    color: white;
+    position: absolute;
+    bottom: 0; /* Fixa o botão no fundo */
+    left: 0; /* Alinha à esquerda (ajuste conforme necessário) */
+    width: 100%; /* Faz o botão esticar para preencher a largura do container */
+    border-radius: 0;
+    transition: box-shadow 0.3s ease;
+}
+
+.botao-cor-especial:hover {
+    box-shadow: 0 4px 8px rgba(255, 123, 0, 0.99); /* Sombra laranja ao passar o mouse */
+    color: rgba(255, 123, 0, 0.99)
+}
+
+
+.borda-cor-especial{
+    border-color: rgba(247, 122, 6, 0.99);
+}
+
+.car-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.email-rodape{
+    text-decoration: none;
+}
+.email-rodape:hover{
+    text-decoration: underline;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav-hover:hover{
+    font-size: rgba(0,0,0,.9);
+}
+
+.text-with-shadow {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5)!important;
+  }
+
+  .nav-titulo{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
