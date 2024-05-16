@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Neighbour</title>
+  <link rel="icon" href="src/img/icone.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/Tabela.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/7291c7ba47.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header class="nav-titulo">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand fonte-titulo cor-especial" href="index.html">Hello Neighbor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end nav-hover" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-link" aria-current="page" href="index.html">Início</a></li>
+            <!-- <i class="fa-solid fa-file-pdf"></i> -->
+            <li><a class="nav-link"  href="index.html#meus-condominios">Condominios</a></li>
+            <li><a class="nav-link"  href="/comunidade/comunidade.html">Comunidade</a></li>
+            <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-Contato" href="#">Contatos</a></li>
+            <li><a class="nav-link" href="#">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container mt-3">
+      <h2 class="fonte-titulo ">Registro de Bikes</h2>
+  
+      <table class="table table-hover ">
+        <thead class="table-dark">
+          <tr>
+            <th>Bike ID</th>
+            <th>Modelo</th>
+            <th>Status</th>
+            <th>Localização</th>
+            <th>Data e Hora</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-visitantes">
+          <tr class="visitante" id="primeiro-visitante">
+            <td class="info-nome">12334</td>
+            <td class="info-visitado">Ebike Myway 4.0</td>
+            <td class="info-bloco table-warning">EM USO</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">15/04/2024 12:04:45 AM</td>
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">43232</td>
+            <td class="info-visitado">Ebike Myway 4.0</td>
+            <td class="info-bloco table-warning">EM USO</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">15/04/2024 14:04:45 AM</td>
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">232212</td>
+            <td class="info-visitado">GTSM1</td>
+            <td class="info-bloco table-warning ">EM USO</td>
+            <td class="info-bloco table-danger" style="color: red; font-weight: bold;">ALERTA: Saiu do condomínio</td>
+            <td class="info-vazamento">15/04/2024 15:04:45 AM</td>
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">31234</td>
+            <td class="info-visitado">Inow V9 750W</td>
+            <td class="info-bloco table-success">ESTACIONADA</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">14/04/2024 23:04:45 PM</td>
+           
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">31234</td>
+            <td class="info-visitado">Splinter Cell 2v2</td>
+            <td class="info-bloco table-success">ESTACIONADA</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">14/04/2024 23:04:45 PM</td>
+           
+          </tr>
+
+
+          <tr class="visitante" >
+            <td class="info-nome">232212</td>
+            <td class="info-visitado">GTSM1</td>
+            <td class="info-bloco table-warning">EM USO</td>
+            <td class="info-bloco table-danger" style="color: red; font-weight: bold;">ALERTA: Saiu do condomínio</td>
+            <td class="info-vazamento">15/04/2024 15:04:45 AM</td>
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">31234</td>
+            <td class="info-visitado">Splinter Cell 2v2</td>
+            <td class="info-bloco table-success">ESTACIONADA</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">14/04/2024 23:04:45 PM</td>
+           
+          </tr>
+
+          <tr class="visitante" >
+            <td class="info-nome">31234</td>
+            <td class="info-visitado">Splinter Cell 2v2</td>
+            <td class="info-bloco table-success">ESTACIONADA</td>
+            <td class="info-bloco table-success" style="color: green; font-weight: bold;">No condomínio</td>
+            <td class="info-vazamento">14/04/2024 23:04:45 PM</td>
+           
+          </tr>
+          
+        </tbody>
+      </table>
+      <span id="erro-ajax" class="invisivel">Erro ao Buscar os visitante
+      </span>
+      <!-- <button id="buscar-visitante" class="botao bto-principal">Buscar visitante</button> -->
+    </section>
+  </main>
+
+  <script src="js/Visitante/from-.js"></script>
+  <script src="js/Visitante/filtrar.js"></script>
+  <script src="js/Visitante/buscar.js"></script>
+  <script src="js/Visitante/remover.js"></script>
+</body>
+</html>
+
